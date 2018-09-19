@@ -14,6 +14,7 @@
 		BA697D40215223D300FE7F14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA697D3E215223D300FE7F14 /* LaunchScreen.storyboard */; };
 		BA697D4B215223D400FE7F14 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA697D4A215223D400FE7F14 /* FantasticViewTests.swift */; };
 		BA697D56215223D400FE7F14 /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA697D55215223D400FE7F14 /* FantasticViewUITests.swift */; };
+		BA697D642152241200FE7F14 /* FantasticViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA697D632152241200FE7F14 /* FantasticViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA697D51215223D400FE7F14 /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA697D55215223D400FE7F14 /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
 		BA697D57215223D400FE7F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA697D632152241200FE7F14 /* FantasticViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BA697D35215223CC00FE7F14 /* AppDelegate.swift */,
+				BA697D632152241200FE7F14 /* FantasticViews.swift */,
 				BA697D37215223CC00FE7F14 /* ViewController.swift */,
 				BA697D39215223CD00FE7F14 /* Main.storyboard */,
 				BA697D3C215223D300FE7F14 /* Assets.xcassets */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA697D642152241200FE7F14 /* FantasticViews.swift in Sources */,
 				BA697D38215223CC00FE7F14 /* ViewController.swift in Sources */,
 				BA697D36215223CC00FE7F14 /* AppDelegate.swift in Sources */,
 			);
@@ -430,14 +434,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZNVXX3QAYV;
 				INFOPLIST_FILE = FantasticView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.development.carmel.FantasticView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.carmel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c525eeb6-78b7-40e0-959d-d73352440834";
+				PROVISIONING_PROFILE_SPECIFIER = CarmelDevelopment_30_Aug_2018;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,14 +454,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZNVXX3QAYV;
 				INFOPLIST_FILE = FantasticView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.development.carmel.FantasticView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.development.carmel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6850edbb-01ab-4b48-850c-09a8f8ea6387";
+				PROVISIONING_PROFILE_SPECIFIER = CarmelDistribution_30_Aug_2018;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
