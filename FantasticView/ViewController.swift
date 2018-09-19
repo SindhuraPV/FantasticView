@@ -15,6 +15,7 @@ class ViewController: UIViewController {
        
         let fantasticView = FantasticViews(frame: self.view.bounds)
         self.view.addSubview(fantasticView)
+        print("Sample")
     }
 
     override func didReceiveMemoryWarning() {
