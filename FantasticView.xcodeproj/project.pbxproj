@@ -15,6 +15,7 @@
 		BA697D4B215223D400FE7F14 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA697D4A215223D400FE7F14 /* FantasticViewTests.swift */; };
 		BA697D56215223D400FE7F14 /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA697D55215223D400FE7F14 /* FantasticViewUITests.swift */; };
 		BA697D642152241200FE7F14 /* FantasticViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA697D632152241200FE7F14 /* FantasticViews.swift */; };
+		BA697D662152529200FE7F14 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA697D652152529200FE7F14 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA697D55215223D400FE7F14 /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
 		BA697D57215223D400FE7F14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA697D632152241200FE7F14 /* FantasticViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViews.swift; sourceTree = "<group>"; };
+		BA697D652152529200FE7F14 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				BA697D35215223CC00FE7F14 /* AppDelegate.swift */,
+				BA697D652152529200FE7F14 /* LICENSE.txt */,
 				BA697D632152241200FE7F14 /* FantasticViews.swift */,
 				BA697D37215223CC00FE7F14 /* ViewController.swift */,
 				BA697D39215223CD00FE7F14 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA697D662152529200FE7F14 /* LICENSE.txt in Resources */,
 				BA697D40215223D300FE7F14 /* LaunchScreen.storyboard in Resources */,
 				BA697D3D215223D300FE7F14 /* Assets.xcassets in Resources */,
 				BA697D3B215223CD00FE7F14 /* Main.storyboard in Resources */,
